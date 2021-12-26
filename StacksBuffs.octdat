@@ -1,0 +1,170 @@
+//My First Mod, feel free to join my discord at discord.gg/antjpcNNb4 - I will add NF channels in the coming days like my other channels.
+//I will make another version that only alters stacks, but I made this for myself. I feel like seeds should stack a lot and not decay as fast (like real life), also buffed durability in rain and seed drop chances.
+{
+id Oct.Items.Stackable
+type StackedItemType
+factionOwnership = true
+value = 1
+showCount = true
+}
+{
+id Oct.Items.Stackable.CottonSeeds
+type StackedItemType
+stackLimit = 40
+}
+{
+id Oct.Items.Stackable.Wood
+type StackedItemType
+stackLimit = 40
+}
+{
+name = Wooden Arrows
+itemClass = StackedItem
+category = <Oct.Items.Categories.Misc>
+stackLimit = 80
+autonomousPerMember = 50
+}
+{
+id Oct.Items.Stackable.FireArrows
+type ProjectileStackedItemType
+stackLimit = 25
+autonomousPerMember = 15 
+}
+{
+id Oct.Items.Stackable.Coins
+type StackedItemType
+stackLimit = 999
+rainDropDecay = 0.0
+}
+{
+id Oct.Items.Stackable.CookedMeat
+type StackedFoodItemType
+stackLimit = 35
+}
+{
+id Oct.Items.Stackable.Copper
+type StackedItemType
+stackLimit = 35
+rainDropDecay = 0.0
+}
+{
+id Oct.Items.Stackable.Corn
+type StackedFoodItemType
+stackLimit = 40
+dropItemType = Corn Seeds
+dropItemChance = .0999
+}
+{
+id Oct.Items.Stackable.Seeds.Corn
+type StackedItemType
+stackLimit = 50
+}
+{
+id Oct.Items.Stackable.Cotton
+type StackedItemType
+stackLimit = 40
+dropItemType = Cotton Seeds
+dropItemChance = .0999
+indoorDecayDays = 50
+}
+{
+id Oct.Items.Stackable.CottonSeeds
+type StackedItemType
+stackLimit = 40
+indoorDecayDays = 40
+}
+{
+id Oct.Items.Stackable.Skins.Hide
+type HideStackedItemType
+stackLimit = 40
+indoorDecayDays = 50
+}
+{
+id Oct.Items.Stackable.Skins.Leather
+type LeatherStackedItemType
+stackLimit = 40
+}
+{
+id Oct.Items.Stackable.MealBeans
+type StackedFoodItemType
+stackLimit = 40
+indoorDecayDays = 45
+}
+{
+id Oct.Items.Stackable.MealBeans.Ripe
+type StackedFoodItemType
+indoorDecayDays = 40
+stackLimit = 40
+}
+{
+id Oct.Items.Stackable.MealBeans.Overripe
+type StackedFoodItemType
+indoorDecayDays = 35
+stackLimit = 40
+}
+{
+id Oct.Items.Stackable.Meal
+type MealStackedItemType
+stackLimit = 25
+}
+{
+id Oct.Items.Stackable.Milk
+type StackedFoodItemType
+stackLimit = 20
+}
+{
+id Oct.Items.Stackable.Octoberberries
+type StackedFoodItemType
+stackLimit = 35
+indoorDecayDays = 35
+outdoorDecayDays = 13
+dropItemType = Octoberberry Seeds
+dropItemChance = .0999
+}
+{
+id Oct.Items.Stackable.OctoberberrySeeds
+type StackedItemType
+stackLimit = 40
+indoorDecayDays = 50
+}
+{
+id Oct.Items.Stackable.Pumpkins
+type StackedFoodItemType
+stackLimit = 15
+indoorDecayDays = 25
+dropItemType = Pumpkin Seeds
+dropItemChance = .0999
+}
+{
+id Oct.Items.Stackable.Seeds.Pumpkin
+type StackedFoodItemType
+stackLimit = 45
+}
+{
+id Oct.Items.Stackable.RawMeat
+type StackedFoodItemType
+stackLimit = 25
+}
+{
+id Oct.Items.Stackable.Silver
+type StackedItemType
+stackLimit = 25
+rainDropDecay = 0.0
+}
+{
+id Oct.Items.Stackable.SilverRods
+type StackedItemType
+stackLimit = 20
+rainDropDecay = 0.0
+}
+{
+id Oct.Items.Stackable.Stone
+type StackedItemType
+stackLimit = 30
+rainDropDecay = 0.0
+}
+{
+id Oct.Items.Stackable.TravelMeals
+type StackedFoodItemType
+stackLimit = 25
+}
